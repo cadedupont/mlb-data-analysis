@@ -9,7 +9,7 @@ Creates a scatter plot of the earned run average (ERA) of MLB pitchers against t
 To be qualified for the plot, a pitcher must have thrown at least 100 innings in the season and played in a minimum of 20 games. This is to ensure that the pitcher had a significant amount of playing time in the season (i.e. ignore position players that have pitched, pitchers that were injured, etc.).
 
 <p align="center">
-    <img src="/plots/era_vs_age.png" alt="ERA vs Age" width="65%"/>
+    <img src="/plots/era_vs_age.png" alt="ERA vs Age" width="100%"/>
 </p>
 
 ## [`win_vs_salary.R`](src/win_vs_salary.R)
@@ -17,5 +17,5 @@ To be qualified for the plot, a pitcher must have thrown at least 100 innings in
 Creates a scatter plot of the win percentage of MLB teams in 2016 against their total expenditure on players salaries for that season.
 
 <p align="center">
-    <img src="/plots/win_vs_salary.png" alt="Win % vs Salary" width="65%"/>
+    <img src="/plots/win_vs_salary.png" alt="Win % vs Salary" width="100%"/>
 </p>
