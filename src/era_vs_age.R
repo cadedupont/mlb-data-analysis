@@ -49,4 +49,4 @@ ggplot(pitchers, aes(x = age, y = ERA)) +
   theme_bw()
 
 # Save the plot as a PNG file
-ggsave("era_vs_age.png")
+ggsave("../plots/era_vs_age.png")

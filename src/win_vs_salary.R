@@ -36,10 +36,10 @@ ggplot(team_salaries_wins, aes(x = Salary, y = WinPct)) +
     segment.size = 0
   ) +
   labs(
-    title = sprintf("Team Salary vs. Win Percentage in %d", latest_year),
+    title = sprintf("Win Percentage vs. Team Salary in %d", latest_year),
     x = "Team Salary",
     y = "Win Percentage"
   ) +
   scale_x_continuous(labels = function(x) paste0(x / 1e6, "M")) +
   theme_bw()
-ggsave("win_vs_salary.png")
+ggsave("../plots/win_vs_salary.png")
